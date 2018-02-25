@@ -1,0 +1,11 @@
+#!/bin/bash
+
+while read -r line
+do
+	echo "s|\($line\)|\n\1\n|g"
+	# below are failed experiments
+	#echo "s|\(^$line$\)|\1|g"
+	#echo "s|\(^.\+\)\($line$\)|\1\n\2|g"
+	#echo "s|\(^$line\)\(.\+$\)|\1\n\2|g"
+	#echo "s|\(^.\+\)\($line\)\(.\+$\)|\1\n\2\n\3|g"
+done

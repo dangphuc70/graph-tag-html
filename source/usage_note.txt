@@ -1,0 +1,21 @@
+linearize is the main script to run
+linearize uses these scripts sedcmd, pack
+
+example use of linearize:
+
+./linearize tags from_url
+
+content of tags are similar to:
+----begin of tags----
+
+<html
+</html>
+
+<div
+</div>
+
+<tr
+</tr>
+-----end of tags-----
+
+content of from_url is html code of a wikipedia page

@@ -1,0 +1,21 @@
+CORE (ESSENTIAL)
+linearize : main script
+sedcmd : script to generate sed command (used in linearize)
+pack : script to process saved-pairs-format (used in linearize)
+wd : contains path to 'operation directory'
+
+examples:
+linearize:
+	./linearize tags from_url
+	./linearize tags genghis_khan_wikipedia
+
+pack:
+	./pack tags firsts seconds
+
+------
+ADDITIONAL
+from_url, genghis_khan_wikipedia, unity_wikipedia: html source codes (taken from wikipedia)
+-> for testing as input #2 to ./linearize
+
+tags: contains pairs for entry tags and exit tags
+-> for testing as input #1 to ./linearize
