@@ -1,4 +1,4 @@
-# Graph nesting tags
+# Graph nesting depth
 Graph nesting-level of tags i.e. &lt;tag>, &lt;/tag> in a text file (particularly html sources)
 
 _This is project is done in Linux_  
