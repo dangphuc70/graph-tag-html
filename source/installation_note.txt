@@ -1,5 +1,4 @@
-change the directory in file named wd
-to your installation directory (the directory you put these following files:
+change the directory in file named wd to your installation directory where you put following files:
 linearize,
 sedcmd,
 pack,
